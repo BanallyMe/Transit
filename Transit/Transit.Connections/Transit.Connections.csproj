@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>BanallyMe.Transit.Connections</AssemblyName>
+    <RootNamespace>BanallyMe.Transit.Connections</RootNamespace>
+    <Authors>BanallyMe</Authors>
+    <Version>0.0.1</Version>
+    <Description>Component of BanallyMe.Transit which handles connections to SQL Server.</Description>
+    <Copyright>2020 BanallyMe</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/BanallyMe/Transit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BanallyMe/Transit</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
+    <Nullable>Enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+    <NoWarn>CA1303;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

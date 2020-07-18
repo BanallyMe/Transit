@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>BanallyMe.Transit.Connections.UnitTests</AssemblyName>
+    <RootNamespace>BanallyMe.Transit.Connections.UnitTests</RootNamespace>
+    <Authors>BanallyMe</Authors>
+    <Version>0.0.1</Version>
+    <Description>Project containing unit tests for project BanallyMe.Transit.Connections.</Description>
+    <Copyright>2020 BanallyMe</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <NoWarn>CA1707;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Transit.Connections\Transit.Connections.csproj" />
+  </ItemGroup>
+
+</Project>
